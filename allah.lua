@@ -687,7 +687,7 @@ local MyDropdown = Tab5:Dropdown{
 	StartingText = "Select...",
 	Description = nil,
 	Items = {
-		{"2ndAniversaryBundle (Rarest)",1},
+		{"LuckOTheIrishBundle (Rarest)",1},
 		{"AnniversaryClassicBundle",2},	
 		{"SpookySweetsBundle",3}
 	},
@@ -698,7 +698,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.B
 
 local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
 
-hi["RedNutcrackerBundle"] = 592709755
+hi["RedNutcrackerBundle"] = 166842694
 elseif item == 2 then
 game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
 game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
