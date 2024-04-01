@@ -259,11 +259,11 @@ getgenv().DoorESP = false
 						wait(0.1)
 					end
 				end)
-				
-				
+
+
 			end
 		end
-		
+
 	end)
 	--double doors
 	spawn(function()
@@ -532,7 +532,7 @@ local lp = Players.LocalPlayer
 local function GetClosestPlayer()
    local target = nil
    local distance = math.huge
- 
+
    for i,v in next, Players:GetPlayers() do
        if v and v ~= lp and v.Character and v.Character:FindFirstChildOfClass('Humanoid') and v.Character:FindFirstChildOfClass('Humanoid').RootPart then
            local plrdist = lp:DistanceFromCharacter(v.Character:FindFirstChildOfClass('Humanoid').RootPart.CFrame.p)
@@ -542,7 +542,7 @@ local function GetClosestPlayer()
            end
        end
    end
- 
+
    return target
 end
 
@@ -690,7 +690,6 @@ local MyDropdown = Tab5:Dropdown{
 		{"2ndAniversaryBundle (Rarest)",1},
 		{"AnniversaryClassicBundle",2},	
 		{"SpookySweetsBundle",3}
-		{"LuckOTheIrishBundle",4}
 	},
 	Callback = function(item)
 if item == 1 then
@@ -714,13 +713,6 @@ game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.B
 local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
 
 hi["RedNutcrackerBundle"] = 1111394671
-elseif item == 4 then
-game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
-game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
-
-local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
-
-hi["RedNutcrackerBundle"] = 166842694			
 end
 	    return
 	    end
