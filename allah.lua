@@ -705,7 +705,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.B
 
 local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
 
-hi["RedNutcrackerBundle"] = 307455363
+hi["RedNutcrackerBundle"] = 307452494
 elseif item == 3 then
 game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
 game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
