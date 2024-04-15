@@ -4,73 +4,73 @@ getgenv().Team = "Marines"
 getgenv().WeaponsSetting = {
     ["Melee"] = {
         ["Enable"] = true,
-        ["Delay"] = 1.5, 
+        ["Delay"] = 2.7, 
         ["SwitchNextWeaponIfCooldown"] = true,
         ["Skills"] = {
             ["Z"] = {
                 ["Enable"] = true,
-                ["NoPredict"] = false, -- For Dragon Tailon, Disable it 
-                ["HoldTime"] = 0.5,
-                ["TimeToNextSkill"] = 0,
+                ["NoPredict"] = true, -- For Dragon Tailon, Disable it 
+                ["HoldTime"] = 0.75,
+                ["TimeToNextSkill"] = 0.4,
             },
         [ "X"] = {
                 ["Enable"] = true,
-                ["HoldTime"] = 1,
-                ["TimeToNextSkill"] = 0.25,
+                ["HoldTime"] = 0.14,
+                ["TimeToNextSkill"] = 0.45,
             },
 
             ["C"] = {
                 ["Enable"] = true,
-                ["HoldTime"] = 0.5,
-                ["TimeToNextSkill"] = 0.3,
+                ["HoldTime"] = 0.4,
+                ["TimeToNextSkill"] = 0.5,
             },
         },
     },
     ["Blox Fruit"] = {
-        ["Enable"] = false,
-        ["Delay"] = 3,
+        ["Enable"] = true,
+        ["Delay"] = 3.5,
         ["SwitchNextWeaponIfCooldown"] = true,
         ["Skills"] = {
             ["Z"] = {
                 ["Enable"] = true,
-                ["HoldTime"] = 1,
-                ["TimeToNextSkill"] = 0,
+                ["HoldTime"] = 2,
+                ["TimeToNextSkill"] = 0.5,
             },
             ["X"] = {
                 ["Enable"] = true,
-                ["HoldTime"] = 0,
-                ["TimeToNextSkill"] = 0,
+                ["HoldTime"] = 0.3,
+                ["TimeToNextSkill"] = 0.5,
             },
 
             ["C"] = {
                 ["Enable"] = true,
-                ["HoldTime"] = 0,
-                ["TimeToNextSkill"] = 0,
+                ["HoldTime"] = 0.3,
+                ["TimeToNextSkill"] = 0.5,
             },
             ["V"] = {
                 ["Enable"] = true,
-                ["HoldTime"] = 0,
-                ["TimeToNextSkill"] = 0,
+                ["HoldTime"] = 0.3,
+                ["TimeToNextSkill"] = 0.5,
             },
             ["F"] = {
-                ["Enable"] = false,
+                ["Enable"] = true,
                 ["HoldTime"] = 0,
-                ["TimeToNextSkill"] = 0,
+                ["TimeToNextSkill"] = 0.5,
             },
         },
     },
     ["Sword"] = {
-        ["Enable"] = true,
+        ["Enable"] = false,
         ["Delay"] = 1.5,
         ["Skills"] = {
             ["Z"] = {
                 ["Enable"] = true,
-                ["HoldTime"] = 0.5,
+                ["HoldTime"] = 1.1,
                 ["TimeToNextSkill"] = 0,
             },
             ["X"] = {
                 ["Enable"] = true,
-                ["HoldTime"] = 0.2,
+                ["HoldTime"] = 0.4,
                 ["TimeToNextSkill"] = 0,
             },
         },
